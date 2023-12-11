@@ -1,0 +1,9 @@
+def celsius_to_fahrenheit(celsius):
+    """แปลงอุณหภูมิจากเซลเซียสไปเป็นฟาเรนไฮต์"""
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+
+# ตัวอย่างการใช้งานฟังก์ชัน
+celsius_temperature = 25
+fahrenheit_temperature = celsius_to_fahrenheit(celsius_temperature)
+print(f"{celsius_temperature}°C คือ {fahrenheit_temperature:.2f}°F")
